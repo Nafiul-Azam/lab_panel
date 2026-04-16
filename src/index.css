@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-soft: #f3f9f9;
+    --bg-elevated: rgba(255, 255, 255, 0.72);
+    --bg-card: rgba(255, 255, 255, 0.86);
+    --line-soft: rgba(36, 89, 94, 0.12);
+    --text-strong: #12363a;
+    --text-soft: #58797d;
+    --critical: #d23d58;
+    --warning: #e6a943;
+    --success: #219f78;
+  }
+
+  * {
+    @apply border-clinic-100;
+  }
+
+  body {
+    @apply bg-mesh font-sans text-clinic-900 antialiased;
+    margin: 0;
+    min-height: 100vh;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-heading text-clinic-900;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clinic-300 focus-visible:ring-offset-2;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply rounded-3xl border border-white/70 bg-white/70 shadow-glass backdrop-blur-xl;
+  }
+
+  .mobile-card {
+    @apply rounded-2xl border border-white/70 bg-white/85 shadow-soft backdrop-blur;
+  }
+
+  .panel-title {
+    @apply text-lg font-semibold text-clinic-900;
+  }
+}
