@@ -1,17 +1,6 @@
-import { roleLabels } from "../../constants/roles";
+import { roleLabels, roleOptions } from "../../constants/roles";
 import { useAppStore } from "../../store/useAppStore";
 import type { Role } from "../../types";
-
-const roles: Role[] = [
-  "admin",
-  "operator",
-  "collector",
-  "technician",
-  "senior",
-  "approver",
-  "delivery",
-  "super_admin",
-];
 
 export function RoleSwitcher() {
   const role = useAppStore((state) => state.role);
@@ -25,7 +14,7 @@ export function RoleSwitcher() {
         onChange={(event) => setRole(event.target.value as Role)}
         className="bg-transparent text-xs font-semibold text-clinic-900"
       >
-        {roles.map((value) => (
+        {roleOptions.map((value) => (
           <option key={value} value={value}>
             {roleLabels[value]}
           </option>

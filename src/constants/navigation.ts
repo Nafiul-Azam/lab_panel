@@ -230,3 +230,19 @@ export const mobileMoreItems: NavItem[] = [
     roles: allRoles,
   },
 ];
+
+export function getRoleOrderedDesktopNavItems(role: Role): NavItem[] {
+  const seen = new Set<string>();
+  const orderedItems = desktopNav
+    .flatMap((group) => group.items)
+    .filter((item) => item.roles.includes(role))
+    .filter((item) => {
+      if (seen.has(item.path)) {
+        return false;
+      }
+      seen.add(item.path);
+      return true;
+    });
+
+  return orderedItems;
+}

@@ -12,7 +12,7 @@ export function DesktopSidebar() {
   return (
     <aside
       className={cn(
-        "hidden h-[calc(100vh-24px)] shrink-0 rounded-3xl border border-white/70 bg-white/80 p-3 shadow-glass backdrop-blur-xl md:flex md:flex-col",
+        "hidden h-[calc(100vh-24px)] shrink-0 self-start rounded-3xl border border-white/70 bg-white/80 p-3 shadow-glass backdrop-blur-xl md:sticky md:top-3 md:flex md:flex-col",
         collapsed ? "w-20" : "w-72",
       )}
     >
@@ -26,12 +26,12 @@ export function DesktopSidebar() {
         <button
           onClick={toggleSidebar}
           type="button"
-          className="rounded-lg bg-white p-2"
+          className="rounded-lg bg-white p-2 text-clinic-700 transition-colors hover:bg-clinic-100 hover:text-clinic-900"
         >
           {collapsed ? <ChevronRight size={15} /> : <ChevronLeft size={15} />}
         </button>
       </div>
-      <div className="space-y-3 overflow-y-auto pr-1">
+      <div className="min-h-0 flex-1 space-y-3 overflow-y-auto pr-1">
         {desktopNav.map((group) => {
           const items = group.items.filter((item) => item.roles.includes(role));
           if (!items.length) {
@@ -51,15 +51,26 @@ export function DesktopSidebar() {
                     to={item.path}
                     className={({ isActive }) =>
                       cn(
-                        "flex items-center gap-2 rounded-xl px-2.5 py-2 text-sm font-medium transition",
+                        "group relative isolate flex items-center gap-2 overflow-hidden rounded-xl px-2.5 py-2 text-sm font-medium transition-colors duration-300 ease-out",
                         isActive
                           ? "bg-clinic-600 text-white shadow-soft"
-                          : "text-clinic-800 hover:bg-clinic-50",
+                          : "text-clinic-700 hover:bg-clinic-100 hover:text-clinic-900 hover:shadow-soft",
                       )
                     }
                   >
-                    <item.icon size={16} />
-                    {!collapsed ? <span>{item.label}</span> : null}
+                    <span
+                      aria-hidden
+                      className="pointer-events-none absolute inset-0 -translate-x-[140%] bg-gradient-to-r from-transparent via-white/70 to-transparent opacity-0 transition-all duration-700 ease-out group-hover:translate-x-[140%] group-hover:opacity-100"
+                    />
+                    <item.icon
+                      size={16}
+                      className="relative z-10 transition-colors duration-300 group-hover:text-clinic-900"
+                    />
+                    {!collapsed ? (
+                      <span className="relative z-10 transition-colors duration-300 group-hover:text-clinic-900">
+                        {item.label}
+                      </span>
+                    ) : null}
                   </NavLink>
                 ))}
               </div>

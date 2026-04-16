@@ -11,6 +11,7 @@ interface AppState {
   role: Role;
   sidebarCollapsed: boolean;
   mobileMoreOpen: boolean;
+  mobileRoleOpen: boolean;
   toasts: { id: string; title: string; message: string }[];
   selectedPatient?: Patient;
   notifications: NotificationItem[];
@@ -19,6 +20,8 @@ interface AppState {
   toggleSidebar: () => void;
   openMobileMore: () => void;
   closeMobileMore: () => void;
+  openMobileRole: () => void;
+  closeMobileRole: () => void;
   pushToast: (title: string, message: string) => void;
   removeToast: (id: string) => void;
   markNotificationRead: (id: string) => void;
@@ -31,6 +34,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   role: currentUser.role,
   sidebarCollapsed: false,
   mobileMoreOpen: false,
+  mobileRoleOpen: false,
   toasts: [],
   notifications,
   tokenQueue: incomingTokens,
@@ -40,6 +44,8 @@ export const useAppStore = create<AppState>((set, get) => ({
     set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed })),
   openMobileMore: () => set({ mobileMoreOpen: true }),
   closeMobileMore: () => set({ mobileMoreOpen: false }),
+  openMobileRole: () => set({ mobileRoleOpen: true }),
+  closeMobileRole: () => set({ mobileRoleOpen: false }),
   pushToast: (title, message) =>
     set((state) => ({
       toasts: [

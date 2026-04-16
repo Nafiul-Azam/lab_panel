@@ -1,0 +1,180 @@
+Date : 2026-04-16 20:02:00
+Directory : /home/nafiul-azam/lab_panel/src
+Total : 106 files,  4648 codes, 0 comments, 509 blanks, all 5157 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |         62 |      3,262 |          0 |        248 |      3,510 |
+| TypeScript     |          8 |        691 |          0 |         43 |        734 |
+| Markdown       |         32 |        480 |          0 |        179 |        659 |
+| PostCSS        |          2 |        213 |          0 |         38 |        251 |
+| XML            |          2 |          2 |          0 |          1 |          3 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                     | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                        |        106 |      4,648 |          0 |        509 |      5,157 |
+| . (Files)                                                                                |          4 |        340 |          0 |         47 |        387 |
+| app                                                                                      |          7 |        163 |          0 |         30 |        193 |
+| app (Files)                                                                              |          1 |         16 |          0 |          6 |         22 |
+| app/layouts                                                                              |          2 |         40 |          0 |          8 |         48 |
+| app/providers                                                                            |          2 |         20 |          0 |          8 |         28 |
+| app/routes                                                                               |          2 |         87 |          0 |          8 |         95 |
+| assets                                                                                   |          2 |          2 |          0 |          1 |          3 |
+| components                                                                               |         35 |      1,545 |          0 |        129 |      1,674 |
+| components (Files)                                                                       |          1 |         18 |          0 |          7 |         25 |
+| components/charts                                                                        |          2 |         47 |          0 |          6 |         53 |
+| components/feedback                                                                      |          4 |        100 |          0 |          9 |        109 |
+| components/forms                                                                         |          3 |        318 |          0 |         23 |        341 |
+| components/layout                                                                        |          5 |        182 |          0 |         15 |        197 |
+| components/navigation                                                                    |          4 |        188 |          0 |         12 |        200 |
+| components/profile                                                                       |          2 |        121 |          0 |          9 |        130 |
+| components/shared                                                                        |          5 |        115 |          0 |         15 |        130 |
+| components/tables                                                                        |          1 |        122 |          0 |          7 |        129 |
+| components/workflow                                                                      |          8 |        334 |          0 |         26 |        360 |
+| constants                                                                                |          3 |        263 |          0 |         16 |        279 |
+| data                                                                                     |          2 |        266 |          0 |         17 |        283 |
+| features                                                                                 |         42 |      1,817 |          0 |        222 |      2,039 |
+| features (Files)                                                                         |          1 |         20 |          0 |          3 |         23 |
+| features/activity                                                                        |          2 |         29 |          0 |          8 |         37 |
+| features/analytics                                                                       |          2 |         79 |          0 |          8 |         87 |
+| features/approval                                                                        |          2 |         29 |          0 |          8 |         37 |
+| features/barcode                                                                         |          2 |         89 |          0 |         14 |        103 |
+| features/dashboard                                                                       |          2 |        440 |          0 |         16 |        456 |
+| features/delivery                                                                        |          2 |         67 |          0 |          9 |         76 |
+| features/mobile-quick-actions                                                            |          2 |        135 |          0 |         11 |        146 |
+| features/notifications                                                                   |          2 |         36 |          0 |          9 |         45 |
+| features/orders                                                                          |          3 |        118 |          0 |         10 |        128 |
+| features/patient                                                                         |          3 |        215 |          0 |         28 |        243 |
+| features/processing                                                                      |          2 |         76 |          0 |         19 |         95 |
+| features/profile                                                                         |          3 |         51 |          0 |         10 |         61 |
+| features/queue                                                                           |          2 |         59 |          0 |         10 |         69 |
+| features/results                                                                         |          2 |         29 |          0 |          8 |         37 |
+| features/review                                                                          |          4 |        214 |          0 |         26 |        240 |
+| features/sample                                                                          |          2 |         29 |          0 |          8 |         37 |
+| features/settings                                                                        |          2 |         50 |          0 |          9 |         59 |
+| features/staff                                                                           |          2 |         52 |          0 |          8 |         60 |
+| hooks                                                                                    |          1 |          3 |          0 |          2 |          5 |
+| mock-api                                                                                 |          1 |          4 |          0 |          3 |          7 |
+| store                                                                                    |          2 |        105 |          0 |         11 |        116 |
+| styles                                                                                   |          1 |          3 |          0 |          2 |          5 |
+| types                                                                                    |          3 |        111 |          0 |         18 |        129 |
+| utils                                                                                    |          3 |         26 |          0 |         11 |         37 |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                 | language       | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /home/nafiul-azam/lab_panel/src/App.css                                                  | PostCSS        |        158 |          0 |         27 |        185 |
+| /home/nafiul-azam/lab_panel/src/App.tsx                                                  | TypeScript JSX |        115 |          0 |          7 |        122 |
+| /home/nafiul-azam/lab_panel/src/app/README.md                                            | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/app/layouts/AppShell.tsx                                 | TypeScript JSX |         24 |          0 |          2 |         26 |
+| /home/nafiul-azam/lab_panel/src/app/layouts/README.md                                    | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/app/providers/AppProviders.tsx                           | TypeScript JSX |          4 |          0 |          2 |          6 |
+| /home/nafiul-azam/lab_panel/src/app/providers/README.md                                  | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/app/routes/AppRouter.tsx                                 | TypeScript JSX |         71 |          0 |          2 |         73 |
+| /home/nafiul-azam/lab_panel/src/app/routes/README.md                                     | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/assets/react.svg                                         | XML            |          1 |          0 |          0 |          1 |
+| /home/nafiul-azam/lab_panel/src/assets/vite.svg                                          | XML            |          1 |          0 |          1 |          2 |
+| /home/nafiul-azam/lab_panel/src/components/COMPONENTS.md                                 | Markdown       |         18 |          0 |          7 |         25 |
+| /home/nafiul-azam/lab_panel/src/components/charts/ChartCard.tsx                          | TypeScript JSX |         15 |          0 |          3 |         18 |
+| /home/nafiul-azam/lab_panel/src/components/charts/MiniAreaChartCard.tsx                  | TypeScript JSX |         32 |          0 |          3 |         35 |
+| /home/nafiul-azam/lab_panel/src/components/feedback/EmptyState.tsx                       | TypeScript JSX |         12 |          0 |          2 |         14 |
+| /home/nafiul-azam/lab_panel/src/components/feedback/LoadingSkeleton.tsx                  | TypeScript JSX |          9 |          0 |          1 |         10 |
+| /home/nafiul-azam/lab_panel/src/components/feedback/NotificationCard.tsx                 | TypeScript JSX |         43 |          0 |          3 |         46 |
+| /home/nafiul-azam/lab_panel/src/components/feedback/ToastViewport.tsx                    | TypeScript JSX |         36 |          0 |          3 |         39 |
+| /home/nafiul-azam/lab_panel/src/components/forms/AutoFillPatientForm.tsx                 | TypeScript JSX |         39 |          0 |          4 |         43 |
+| /home/nafiul-azam/lab_panel/src/components/forms/ResultEntryForm.tsx                     | TypeScript JSX |        216 |          0 |         16 |        232 |
+| /home/nafiul-azam/lab_panel/src/components/forms/SampleCollectionForm.tsx                | TypeScript JSX |         63 |          0 |          3 |         66 |
+| /home/nafiul-azam/lab_panel/src/components/layout/ActionToolbar.tsx                      | TypeScript JSX |          8 |          0 |          2 |         10 |
+| /home/nafiul-azam/lab_panel/src/components/layout/PageHeader.tsx                         | TypeScript JSX |         80 |          0 |          5 |         85 |
+| /home/nafiul-azam/lab_panel/src/components/layout/RoleSwitcher.tsx                       | TypeScript JSX |         23 |          0 |          3 |         26 |
+| /home/nafiul-azam/lab_panel/src/components/layout/SectionHeader.tsx                      | TypeScript JSX |         16 |          0 |          2 |         18 |
+| /home/nafiul-azam/lab_panel/src/components/layout/TopHeader.tsx                          | TypeScript JSX |         55 |          0 |          3 |         58 |
+| /home/nafiul-azam/lab_panel/src/components/navigation/DesktopSidebar.tsx                 | TypeScript JSX |         70 |          0 |          3 |         73 |
+| /home/nafiul-azam/lab_panel/src/components/navigation/FloatingQuickAction.tsx            | TypeScript JSX |         21 |          0 |          3 |         24 |
+| /home/nafiul-azam/lab_panel/src/components/navigation/MobileBottomNav.tsx                | TypeScript JSX |         40 |          0 |          3 |         43 |
+| /home/nafiul-azam/lab_panel/src/components/navigation/MobileMoreSheet.tsx                | TypeScript JSX |         57 |          0 |          3 |         60 |
+| /home/nafiul-azam/lab_panel/src/components/profile/ProfileEditForm.tsx                   | TypeScript JSX |         89 |          0 |          7 |         96 |
+| /home/nafiul-azam/lab_panel/src/components/profile/ProfileSummaryCard.tsx                | TypeScript JSX |         32 |          0 |          2 |         34 |
+| /home/nafiul-azam/lab_panel/src/components/shared/BackButton.tsx                         | TypeScript JSX |         15 |          0 |          2 |         17 |
+| /home/nafiul-azam/lab_panel/src/components/shared/PriorityBadge.tsx                      | TypeScript JSX |         19 |          0 |          3 |         22 |
+| /home/nafiul-azam/lab_panel/src/components/shared/SearchBar.tsx                          | TypeScript JSX |         23 |          0 |          3 |         26 |
+| /home/nafiul-azam/lab_panel/src/components/shared/StatCard.tsx                           | TypeScript JSX |         28 |          0 |          3 |         31 |
+| /home/nafiul-azam/lab_panel/src/components/shared/StatusBadge.tsx                        | TypeScript JSX |         30 |          0 |          4 |         34 |
+| /home/nafiul-azam/lab_panel/src/components/tables/QueueTable.tsx                         | TypeScript JSX |        122 |          0 |          7 |        129 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/ActivityTimeline.tsx                 | TypeScript JSX |         47 |          0 |          2 |         49 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/ApprovalCard.tsx                     | TypeScript JSX |         40 |          0 |          2 |         42 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/BarcodeLabelCard.tsx                 | TypeScript JSX |         24 |          0 |          2 |         26 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/BarcodePrintSheet.tsx                | TypeScript JSX |         39 |          0 |          3 |         42 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/FilterTabs.tsx                       | TypeScript JSX |         27 |          0 |          3 |         30 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/PatientSearchPanel.tsx               | TypeScript JSX |         33 |          0 |          3 |         36 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/ReviewCard.tsx                       | TypeScript JSX |         82 |          0 |          6 |         88 |
+| /home/nafiul-azam/lab_panel/src/components/workflow/TokenCard.tsx                        | TypeScript JSX |         42 |          0 |          5 |         47 |
+| /home/nafiul-azam/lab_panel/src/constants/README.md                                      | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/constants/navigation.ts                                  | TypeScript     |        226 |          0 |          7 |        233 |
+| /home/nafiul-azam/lab_panel/src/constants/roles.ts                                       | TypeScript     |         21 |          0 |          3 |         24 |
+| /home/nafiul-azam/lab_panel/src/data/README.md                                           | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/data/mockData.ts                                         | TypeScript     |        250 |          0 |         11 |        261 |
+| /home/nafiul-azam/lab_panel/src/features/FEATURES.md                                     | Markdown       |         20 |          0 |          3 |         23 |
+| /home/nafiul-azam/lab_panel/src/features/activity/ActivityTimelinePage.tsx               | TypeScript JSX |         13 |          0 |          2 |         15 |
+| /home/nafiul-azam/lab_panel/src/features/activity/README.md                              | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/analytics/AnalyticsReportsPage.tsx              | TypeScript JSX |         63 |          0 |          2 |         65 |
+| /home/nafiul-azam/lab_panel/src/features/analytics/README.md                             | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/approval/ApprovalVerificationPage.tsx           | TypeScript JSX |         13 |          0 |          2 |         15 |
+| /home/nafiul-azam/lab_panel/src/features/approval/README.md                              | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/barcode/BarcodeLabelsPage.tsx                   | TypeScript JSX |         73 |          0 |          8 |         81 |
+| /home/nafiul-azam/lab_panel/src/features/barcode/README.md                               | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/dashboard/LabOverviewPage.tsx                   | TypeScript JSX |        424 |          0 |         10 |        434 |
+| /home/nafiul-azam/lab_panel/src/features/dashboard/README.md                             | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/delivery/README.md                              | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/delivery/ReportDeliveryPage.tsx                 | TypeScript JSX |         51 |          0 |          3 |         54 |
+| /home/nafiul-azam/lab_panel/src/features/mobile-quick-actions/MobileQuickActionsPage.tsx | TypeScript JSX |        119 |          0 |          5 |        124 |
+| /home/nafiul-azam/lab_panel/src/features/mobile-quick-actions/README.md                  | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/notifications/NotificationsCenterPage.tsx       | TypeScript JSX |         20 |          0 |          3 |         23 |
+| /home/nafiul-azam/lab_panel/src/features/notifications/README.md                         | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/orders/OrderReceptionPage.tsx                   | TypeScript JSX |         62 |          0 |          2 |         64 |
+| /home/nafiul-azam/lab_panel/src/features/orders/README.md                                | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/orders/TestSelectionPage.tsx                    | TypeScript JSX |         40 |          0 |          2 |         42 |
+| /home/nafiul-azam/lab_panel/src/features/patient/PatientInputPage.tsx                    | TypeScript JSX |        169 |          0 |         19 |        188 |
+| /home/nafiul-azam/lab_panel/src/features/patient/PatientSearchPage.tsx                   | TypeScript JSX |         30 |          0 |          3 |         33 |
+| /home/nafiul-azam/lab_panel/src/features/patient/README.md                               | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/processing/ProcessingQueuePage.tsx              | TypeScript JSX |         60 |          0 |         13 |         73 |
+| /home/nafiul-azam/lab_panel/src/features/processing/README.md                            | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/profile/ProfileEditPage.tsx                     | TypeScript JSX |         13 |          0 |          2 |         15 |
+| /home/nafiul-azam/lab_panel/src/features/profile/ProfilePage.tsx                         | TypeScript JSX |         22 |          0 |          2 |         24 |
+| /home/nafiul-azam/lab_panel/src/features/profile/README.md                               | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/queue/README.md                                 | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/queue/TokenQueuePage.tsx                        | TypeScript JSX |         43 |          0 |          4 |         47 |
+| /home/nafiul-azam/lab_panel/src/features/results/README.md                               | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/results/ResultEntryPage.tsx                     | TypeScript JSX |         13 |          0 |          2 |         15 |
+| /home/nafiul-azam/lab_panel/src/features/review/README.md                                | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/review/SeniorReviewEditPage.tsx                 | TypeScript JSX |        101 |          0 |         11 |        112 |
+| /home/nafiul-azam/lab_panel/src/features/review/SeniorReviewFullViewPage.tsx             | TypeScript JSX |         84 |          0 |          7 |         91 |
+| /home/nafiul-azam/lab_panel/src/features/review/SeniorReviewPage.tsx                     | TypeScript JSX |         13 |          0 |          2 |         15 |
+| /home/nafiul-azam/lab_panel/src/features/sample/README.md                                | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/sample/SampleCollectionPage.tsx                 | TypeScript JSX |         13 |          0 |          2 |         15 |
+| /home/nafiul-azam/lab_panel/src/features/settings/README.md                              | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/settings/SettingsPage.tsx                       | TypeScript JSX |         34 |          0 |          3 |         37 |
+| /home/nafiul-azam/lab_panel/src/features/staff/README.md                                 | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/features/staff/StaffPerformancePage.tsx                  | TypeScript JSX |         36 |          0 |          2 |         38 |
+| /home/nafiul-azam/lab_panel/src/hooks/README.md                                          | Markdown       |          3 |          0 |          2 |          5 |
+| /home/nafiul-azam/lab_panel/src/index.css                                                | PostCSS        |         55 |          0 |         11 |         66 |
+| /home/nafiul-azam/lab_panel/src/main.tsx                                                 | TypeScript JSX |         12 |          0 |          2 |         14 |
+| /home/nafiul-azam/lab_panel/src/mock-api/README.md                                       | Markdown       |          4 |          0 |          3 |          7 |
+| /home/nafiul-azam/lab_panel/src/store/README.md                                          | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/store/useAppStore.ts                                     | TypeScript     |         89 |          0 |          5 |         94 |
+| /home/nafiul-azam/lab_panel/src/styles/README.md                                         | Markdown       |          3 |          0 |          2 |          5 |
+| /home/nafiul-azam/lab_panel/src/types/README.md                                          | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/types/index.ts                                           | TypeScript     |          1 |          0 |          1 |          2 |
+| /home/nafiul-azam/lab_panel/src/types/lab.ts                                             | TypeScript     |         94 |          0 |         11 |        105 |
+| /home/nafiul-azam/lab_panel/src/utils/README.md                                          | Markdown       |         16 |          0 |          6 |         22 |
+| /home/nafiul-azam/lab_panel/src/utils/cn.ts                                              | TypeScript     |          5 |          0 |          2 |          7 |
+| /home/nafiul-azam/lab_panel/src/utils/format.ts                                          | TypeScript     |          5 |          0 |          3 |          8 |
+| Total                                                                                    |                |      4,648 |          0 |        509 |      5,157 |
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

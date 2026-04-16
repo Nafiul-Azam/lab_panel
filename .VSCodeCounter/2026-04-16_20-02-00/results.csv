@@ -1,0 +1,108 @@
+"filename", "language", "PostCSS", "TypeScript", "Markdown", "TypeScript JSX", "XML", "comment", "blank", "total"
+"/home/nafiul-azam/lab_panel/src/App.css", "PostCSS", 158, 0, 0, 0, 0, 0, 27, 185
+"/home/nafiul-azam/lab_panel/src/App.tsx", "TypeScript JSX", 0, 0, 0, 115, 0, 0, 7, 122
+"/home/nafiul-azam/lab_panel/src/app/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/app/layouts/AppShell.tsx", "TypeScript JSX", 0, 0, 0, 24, 0, 0, 2, 26
+"/home/nafiul-azam/lab_panel/src/app/layouts/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/app/providers/AppProviders.tsx", "TypeScript JSX", 0, 0, 0, 4, 0, 0, 2, 6
+"/home/nafiul-azam/lab_panel/src/app/providers/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/app/routes/AppRouter.tsx", "TypeScript JSX", 0, 0, 0, 71, 0, 0, 2, 73
+"/home/nafiul-azam/lab_panel/src/app/routes/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/assets/react.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"/home/nafiul-azam/lab_panel/src/assets/vite.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"/home/nafiul-azam/lab_panel/src/components/COMPONENTS.md", "Markdown", 0, 0, 18, 0, 0, 0, 7, 25
+"/home/nafiul-azam/lab_panel/src/components/charts/ChartCard.tsx", "TypeScript JSX", 0, 0, 0, 15, 0, 0, 3, 18
+"/home/nafiul-azam/lab_panel/src/components/charts/MiniAreaChartCard.tsx", "TypeScript JSX", 0, 0, 0, 32, 0, 0, 3, 35
+"/home/nafiul-azam/lab_panel/src/components/feedback/EmptyState.tsx", "TypeScript JSX", 0, 0, 0, 12, 0, 0, 2, 14
+"/home/nafiul-azam/lab_panel/src/components/feedback/LoadingSkeleton.tsx", "TypeScript JSX", 0, 0, 0, 9, 0, 0, 1, 10
+"/home/nafiul-azam/lab_panel/src/components/feedback/NotificationCard.tsx", "TypeScript JSX", 0, 0, 0, 43, 0, 0, 3, 46
+"/home/nafiul-azam/lab_panel/src/components/feedback/ToastViewport.tsx", "TypeScript JSX", 0, 0, 0, 36, 0, 0, 3, 39
+"/home/nafiul-azam/lab_panel/src/components/forms/AutoFillPatientForm.tsx", "TypeScript JSX", 0, 0, 0, 39, 0, 0, 4, 43
+"/home/nafiul-azam/lab_panel/src/components/forms/ResultEntryForm.tsx", "TypeScript JSX", 0, 0, 0, 216, 0, 0, 16, 232
+"/home/nafiul-azam/lab_panel/src/components/forms/SampleCollectionForm.tsx", "TypeScript JSX", 0, 0, 0, 63, 0, 0, 3, 66
+"/home/nafiul-azam/lab_panel/src/components/layout/ActionToolbar.tsx", "TypeScript JSX", 0, 0, 0, 8, 0, 0, 2, 10
+"/home/nafiul-azam/lab_panel/src/components/layout/PageHeader.tsx", "TypeScript JSX", 0, 0, 0, 80, 0, 0, 5, 85
+"/home/nafiul-azam/lab_panel/src/components/layout/RoleSwitcher.tsx", "TypeScript JSX", 0, 0, 0, 23, 0, 0, 3, 26
+"/home/nafiul-azam/lab_panel/src/components/layout/SectionHeader.tsx", "TypeScript JSX", 0, 0, 0, 16, 0, 0, 2, 18
+"/home/nafiul-azam/lab_panel/src/components/layout/TopHeader.tsx", "TypeScript JSX", 0, 0, 0, 55, 0, 0, 3, 58
+"/home/nafiul-azam/lab_panel/src/components/navigation/DesktopSidebar.tsx", "TypeScript JSX", 0, 0, 0, 70, 0, 0, 3, 73
+"/home/nafiul-azam/lab_panel/src/components/navigation/FloatingQuickAction.tsx", "TypeScript JSX", 0, 0, 0, 21, 0, 0, 3, 24
+"/home/nafiul-azam/lab_panel/src/components/navigation/MobileBottomNav.tsx", "TypeScript JSX", 0, 0, 0, 40, 0, 0, 3, 43
+"/home/nafiul-azam/lab_panel/src/components/navigation/MobileMoreSheet.tsx", "TypeScript JSX", 0, 0, 0, 57, 0, 0, 3, 60
+"/home/nafiul-azam/lab_panel/src/components/profile/ProfileEditForm.tsx", "TypeScript JSX", 0, 0, 0, 89, 0, 0, 7, 96
+"/home/nafiul-azam/lab_panel/src/components/profile/ProfileSummaryCard.tsx", "TypeScript JSX", 0, 0, 0, 32, 0, 0, 2, 34
+"/home/nafiul-azam/lab_panel/src/components/shared/BackButton.tsx", "TypeScript JSX", 0, 0, 0, 15, 0, 0, 2, 17
+"/home/nafiul-azam/lab_panel/src/components/shared/PriorityBadge.tsx", "TypeScript JSX", 0, 0, 0, 19, 0, 0, 3, 22
+"/home/nafiul-azam/lab_panel/src/components/shared/SearchBar.tsx", "TypeScript JSX", 0, 0, 0, 23, 0, 0, 3, 26
+"/home/nafiul-azam/lab_panel/src/components/shared/StatCard.tsx", "TypeScript JSX", 0, 0, 0, 28, 0, 0, 3, 31
+"/home/nafiul-azam/lab_panel/src/components/shared/StatusBadge.tsx", "TypeScript JSX", 0, 0, 0, 30, 0, 0, 4, 34
+"/home/nafiul-azam/lab_panel/src/components/tables/QueueTable.tsx", "TypeScript JSX", 0, 0, 0, 122, 0, 0, 7, 129
+"/home/nafiul-azam/lab_panel/src/components/workflow/ActivityTimeline.tsx", "TypeScript JSX", 0, 0, 0, 47, 0, 0, 2, 49
+"/home/nafiul-azam/lab_panel/src/components/workflow/ApprovalCard.tsx", "TypeScript JSX", 0, 0, 0, 40, 0, 0, 2, 42
+"/home/nafiul-azam/lab_panel/src/components/workflow/BarcodeLabelCard.tsx", "TypeScript JSX", 0, 0, 0, 24, 0, 0, 2, 26
+"/home/nafiul-azam/lab_panel/src/components/workflow/BarcodePrintSheet.tsx", "TypeScript JSX", 0, 0, 0, 39, 0, 0, 3, 42
+"/home/nafiul-azam/lab_panel/src/components/workflow/FilterTabs.tsx", "TypeScript JSX", 0, 0, 0, 27, 0, 0, 3, 30
+"/home/nafiul-azam/lab_panel/src/components/workflow/PatientSearchPanel.tsx", "TypeScript JSX", 0, 0, 0, 33, 0, 0, 3, 36
+"/home/nafiul-azam/lab_panel/src/components/workflow/ReviewCard.tsx", "TypeScript JSX", 0, 0, 0, 82, 0, 0, 6, 88
+"/home/nafiul-azam/lab_panel/src/components/workflow/TokenCard.tsx", "TypeScript JSX", 0, 0, 0, 42, 0, 0, 5, 47
+"/home/nafiul-azam/lab_panel/src/constants/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/constants/navigation.ts", "TypeScript", 0, 226, 0, 0, 0, 0, 7, 233
+"/home/nafiul-azam/lab_panel/src/constants/roles.ts", "TypeScript", 0, 21, 0, 0, 0, 0, 3, 24
+"/home/nafiul-azam/lab_panel/src/data/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/data/mockData.ts", "TypeScript", 0, 250, 0, 0, 0, 0, 11, 261
+"/home/nafiul-azam/lab_panel/src/features/FEATURES.md", "Markdown", 0, 0, 20, 0, 0, 0, 3, 23
+"/home/nafiul-azam/lab_panel/src/features/activity/ActivityTimelinePage.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 2, 15
+"/home/nafiul-azam/lab_panel/src/features/activity/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/analytics/AnalyticsReportsPage.tsx", "TypeScript JSX", 0, 0, 0, 63, 0, 0, 2, 65
+"/home/nafiul-azam/lab_panel/src/features/analytics/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/approval/ApprovalVerificationPage.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 2, 15
+"/home/nafiul-azam/lab_panel/src/features/approval/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/barcode/BarcodeLabelsPage.tsx", "TypeScript JSX", 0, 0, 0, 73, 0, 0, 8, 81
+"/home/nafiul-azam/lab_panel/src/features/barcode/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/dashboard/LabOverviewPage.tsx", "TypeScript JSX", 0, 0, 0, 424, 0, 0, 10, 434
+"/home/nafiul-azam/lab_panel/src/features/dashboard/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/delivery/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/delivery/ReportDeliveryPage.tsx", "TypeScript JSX", 0, 0, 0, 51, 0, 0, 3, 54
+"/home/nafiul-azam/lab_panel/src/features/mobile-quick-actions/MobileQuickActionsPage.tsx", "TypeScript JSX", 0, 0, 0, 119, 0, 0, 5, 124
+"/home/nafiul-azam/lab_panel/src/features/mobile-quick-actions/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/notifications/NotificationsCenterPage.tsx", "TypeScript JSX", 0, 0, 0, 20, 0, 0, 3, 23
+"/home/nafiul-azam/lab_panel/src/features/notifications/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/orders/OrderReceptionPage.tsx", "TypeScript JSX", 0, 0, 0, 62, 0, 0, 2, 64
+"/home/nafiul-azam/lab_panel/src/features/orders/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/orders/TestSelectionPage.tsx", "TypeScript JSX", 0, 0, 0, 40, 0, 0, 2, 42
+"/home/nafiul-azam/lab_panel/src/features/patient/PatientInputPage.tsx", "TypeScript JSX", 0, 0, 0, 169, 0, 0, 19, 188
+"/home/nafiul-azam/lab_panel/src/features/patient/PatientSearchPage.tsx", "TypeScript JSX", 0, 0, 0, 30, 0, 0, 3, 33
+"/home/nafiul-azam/lab_panel/src/features/patient/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/processing/ProcessingQueuePage.tsx", "TypeScript JSX", 0, 0, 0, 60, 0, 0, 13, 73
+"/home/nafiul-azam/lab_panel/src/features/processing/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/profile/ProfileEditPage.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 2, 15
+"/home/nafiul-azam/lab_panel/src/features/profile/ProfilePage.tsx", "TypeScript JSX", 0, 0, 0, 22, 0, 0, 2, 24
+"/home/nafiul-azam/lab_panel/src/features/profile/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/queue/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/queue/TokenQueuePage.tsx", "TypeScript JSX", 0, 0, 0, 43, 0, 0, 4, 47
+"/home/nafiul-azam/lab_panel/src/features/results/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/results/ResultEntryPage.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 2, 15
+"/home/nafiul-azam/lab_panel/src/features/review/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/review/SeniorReviewEditPage.tsx", "TypeScript JSX", 0, 0, 0, 101, 0, 0, 11, 112
+"/home/nafiul-azam/lab_panel/src/features/review/SeniorReviewFullViewPage.tsx", "TypeScript JSX", 0, 0, 0, 84, 0, 0, 7, 91
+"/home/nafiul-azam/lab_panel/src/features/review/SeniorReviewPage.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 2, 15
+"/home/nafiul-azam/lab_panel/src/features/sample/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/sample/SampleCollectionPage.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 2, 15
+"/home/nafiul-azam/lab_panel/src/features/settings/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/settings/SettingsPage.tsx", "TypeScript JSX", 0, 0, 0, 34, 0, 0, 3, 37
+"/home/nafiul-azam/lab_panel/src/features/staff/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/features/staff/StaffPerformancePage.tsx", "TypeScript JSX", 0, 0, 0, 36, 0, 0, 2, 38
+"/home/nafiul-azam/lab_panel/src/hooks/README.md", "Markdown", 0, 0, 3, 0, 0, 0, 2, 5
+"/home/nafiul-azam/lab_panel/src/index.css", "PostCSS", 55, 0, 0, 0, 0, 0, 11, 66
+"/home/nafiul-azam/lab_panel/src/main.tsx", "TypeScript JSX", 0, 0, 0, 12, 0, 0, 2, 14
+"/home/nafiul-azam/lab_panel/src/mock-api/README.md", "Markdown", 0, 0, 4, 0, 0, 0, 3, 7
+"/home/nafiul-azam/lab_panel/src/store/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/store/useAppStore.ts", "TypeScript", 0, 89, 0, 0, 0, 0, 5, 94
+"/home/nafiul-azam/lab_panel/src/styles/README.md", "Markdown", 0, 0, 3, 0, 0, 0, 2, 5
+"/home/nafiul-azam/lab_panel/src/types/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/types/index.ts", "TypeScript", 0, 1, 0, 0, 0, 0, 1, 2
+"/home/nafiul-azam/lab_panel/src/types/lab.ts", "TypeScript", 0, 94, 0, 0, 0, 0, 11, 105
+"/home/nafiul-azam/lab_panel/src/utils/README.md", "Markdown", 0, 0, 16, 0, 0, 0, 6, 22
+"/home/nafiul-azam/lab_panel/src/utils/cn.ts", "TypeScript", 0, 5, 0, 0, 0, 0, 2, 7
+"/home/nafiul-azam/lab_panel/src/utils/format.ts", "TypeScript", 0, 5, 0, 0, 0, 0, 3, 8
+"Total", "-", 213, 691, 480, 3262, 2, 0, 509, 5157
